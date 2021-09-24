@@ -1,0 +1,42 @@
+.c-header {
+
+  &__wrapper {
+    min-width: 615px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  &__suptitle {
+    letter-spacing: $ls-base + px;
+    line-height: $lh-base + px;
+    font-family: $f-raleway;
+    font-size: $fs-h4 + px;
+    color: $c-silver-dark;
+    margin-top: 107px;
+  }
+
+  &__main-title {
+    line-height: $lh-h1 + px;
+    font-family: $f-roboto;
+    font-size: $fs-h1 + px;
+    margin: 2px 0 36px 0;
+    color: $c-yellow;
+  }
+
+  &__devider {
+    color: $c-yellow;
+    margin: 0 auto 40px auto;
+
+    &__line {
+      background-color: $c-yellow;
+      height: 1px;
+      width: 19%;
+    }
+
+    &__bonfire {
+      font-size: $fs-ion-icon + px;
+      padding: 0 5px;
+      letter-spacing: $ls-base + px;
+    }
+  }
+}

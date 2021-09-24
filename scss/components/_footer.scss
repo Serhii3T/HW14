@@ -1,0 +1,28 @@
+.c-footer {
+
+  &__wrapper {
+    margin: 40px 0;
+  }
+
+  &__input {
+    margin: 0 5px;
+  }
+  
+  &__label {
+    border: 1px solid transparent;
+    background-color: $c-yellow;
+    transition: 0.4s ease;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+    height: 10px;
+    width: 10px;
+  }
+
+  &__input:checked + &__label {
+    background-color: $c-white;
+    border-color: $c-yellow;
+    transform: scale(1.5);
+  }
+}
+

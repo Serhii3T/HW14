@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: $fs-base + px;
+  font-family: $f-roboto;
+  color: $c-black-dark;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+// Selection
+*::selection {
+  background-color: rgba($c-orange, 0.3);
+}
+// Custom Scroll
+*::-webkit-scrollbar {
+  border-radius: 10px;
+  position: relative;
+  z-index: 999;
+  width: 6px;
+}
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba($c-orange, 0.8);
+  background-color: rgba($c-orange, 0.3);
+  border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 3px rgba($c-orange, 0.8);
+  background-color: $c-orange;
+  border-radius: 10px;
+  outline: none;
+}
+
+.wrapper {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+// ! Media example
+// @include media('<=tablet') {
+//   width: 300px;
+// }
+// ! Boostrap
+// @include media-breakpoint-down(sm) {
+//   width: 300px;
+// }

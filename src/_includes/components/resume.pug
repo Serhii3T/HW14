@@ -1,0 +1,29 @@
+mixin resume()
+  .c-resume.wrapper
+    .c-resume__wrapper.d-flex
+      .c-resume__left-arrow.d-flex.align-items-center
+        a(href="#").c-resume__left-arrow__icon 
+          i.fas.fa-chevron-left
+      .c-resume__left 
+        .c-resume__left__wrapper.position-relative
+          .c-resume__left__foto.position-relative
+            img(src="./assets/images/foto.png", alt="foto")
+      .c-resume__middle
+      .c-resume__right
+        .c-resume__right__wrapper
+          h2.c-resume__right__name Sahariar Kabir
+          h3.c-resume__right__position Frontend Developer
+          .c-resume__right__links
+            a(href="https://facebook.com" target="_blank").e-circle
+              i.fab.fa-facebook-f.e-circle__link
+            a(href="https://twitter.com/?lang=ru" target="_blank").e-circle
+              i.fab.fa-twitter.e-circle__link
+            a(href="https://www.google.com/" target="_blank").e-circle
+              i.fab.fa-google-plus-g.e-circle__link
+            a(href="https://ru.linkedin.com/" target="_blank").e-circle
+              i.fab.fa-linkedin-in.e-circle__link            
+          p.c-resume__right__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus dui sit amet ligula efficitur, sit amet lacinia massa dictum. Etiam accumsan felis a nunc facilisis, ut euismod lacus placerat. Praesent rutrum eget massa a convallis. Nam vitae augue malesuada, accumsan mauris ut, consectetur.
+          +button(args)
+      .c-resume__right-arrow.d-flex.align-items-center
+        a(href="#").c-resume__right-arrow__icon
+         i.fas.fa-chevron-right
