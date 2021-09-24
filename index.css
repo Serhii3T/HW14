@@ -2792,6 +2792,25 @@ a {
   background-color: #CCCCCC;
 }
 
+.e-circle {
+  border: 2px solid #CCCCCC;
+  display: inline-block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #CCCCCC;
+  margin: 0 2px;
+}
+.e-circle__link {
+  line-height: 14px;
+  font-size: 14px;
+  margin: 6px 0;
+}
+.e-circle:hover {
+  background-color: #CCCCCC;
+  color: white;
+}
+
 .c-header__wrapper {
   min-width: 615px;
   margin: 0 auto;
@@ -2961,24 +2980,6 @@ a {
   margin-bottom: 25px;
   max-height: 30px;
   height: 100%;
-}
-.c-resume__right__links .e-circle {
-  border: 2px solid #CCCCCC;
-  display: inline-block;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  color: #CCCCCC;
-  margin: 0 2px;
-}
-.c-resume__right__links .e-circle__link {
-  line-height: 14px;
-  font-size: 14px;
-  margin: 6px 0;
-}
-.c-resume__right__links .e-circle:hover {
-  background-color: #CCCCCC;
-  color: white;
 }
 .c-resume__right__text {
   line-height: 24px;

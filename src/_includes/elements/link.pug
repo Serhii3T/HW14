@@ -1,1 +1,6 @@
 mixin link(args)
+  - let hrefLink = args.href
+  - let iconLink = args.icon
+  - let targetLink = args.target || "_self"
+  a(href=hrefLink target=targetLink).e-circle
+    i.fab.e-circle__link(class=iconLink)

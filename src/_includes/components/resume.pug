@@ -14,14 +14,10 @@ mixin resume()
           h2.c-resume__right__name Sahariar Kabir
           h3.c-resume__right__position Frontend Developer
           .c-resume__right__links
-            a(href="https://facebook.com" target="_blank").e-circle
-              i.fab.fa-facebook-f.e-circle__link
-            a(href="https://twitter.com/?lang=ru" target="_blank").e-circle
-              i.fab.fa-twitter.e-circle__link
-            a(href="https://www.google.com/" target="_blank").e-circle
-              i.fab.fa-google-plus-g.e-circle__link
-            a(href="https://ru.linkedin.com/" target="_blank").e-circle
-              i.fab.fa-linkedin-in.e-circle__link            
+            +link({href:"https://facebook.com", icon: "fa-facebook-f", target: "_blank"})
+            +link({href:"https://twitter.com/?lang=ru", icon: "fa-twitter", target: "_blank"})
+            +link({href:"https://www.google.com/", icon: "fa-google-plus-g", target: "_blank"})
+            +link({href:"https://ru.linkedin.com/", icon: "fa-linkedin-in", target: "_blank"})
           p.c-resume__right__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus dui sit amet ligula efficitur, sit amet lacinia massa dictum. Etiam accumsan felis a nunc facilisis, ut euismod lacus placerat. Praesent rutrum eget massa a convallis. Nam vitae augue malesuada, accumsan mauris ut, consectetur.
           +button(args)
       .c-resume__right-arrow.d-flex.align-items-center

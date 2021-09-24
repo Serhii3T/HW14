@@ -126,26 +126,6 @@
       margin-bottom: 25px;
       max-height: 30px;
       height: 100%;
-
-      .e-circle {
-        border: 2px solid $c-silver;
-        display: inline-block;
-        border-radius: 50%;
-        @include size(30);
-        color: $c-silver;
-        margin: 0 2px;
-
-        &__link {
-          line-height: $lh-soc-icon + px;
-          font-size: $fs-base + px;
-          margin: 6px 0;
-        }
-
-        &:hover {
-          background-color: $c-silver;
-          color: white;
-        }
-      }
     }
 
     &__text {
